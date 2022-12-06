@@ -1,0 +1,52 @@
+ body {
+      font-family: Georgia serif;
+      text-align: center;
+      width: 500px;
+      margin: 50px;
+      padding: 50px;
+      background-color: #fff;
+      border-style: groove;
+      border-color: #ddd;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 32px;
+        padding: 15px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 300;
+        color: #aaa;
+        line-height: 16px;
+        padding: 5px;
+    }
+    hr{
+        width: 200px;
+        margin: 30px;
+        border-style: solid;
+        border-width: 1px;
+        color: #ddd;
+    }
+    p{
+        font-weight: 500;
+        line-height: 32px;
+    }
+    ul{
+        font-weight: 500;
+        line-height: 28px;
+        list-style-type: none;
+        border-width: 1px;
+        border-color: #eee;
+        padding: 5px;
+    }
+    a:link{
+        color: #aaa;
+    }
+
+
+

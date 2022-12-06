@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Forms Review</title>
+  </head>
+  <body>
+    <section id="overlay">
+
+      <p id="logo">Order your milktea!</p>
+      <hr>
+      <form action="submission.html" method="post">
+        <p>
+          <label for="你想要什么口味的奶茶">你想要什么口味的奶茶</label>
+          <input type="text" name="你想要什么口味的奶茶" id="你想要什么口味的奶茶">
+        </p>
+        <hr>
+        <p>
+          <label for="你想要几杯">你想要几杯</label>
+          <input type="number" name="你想要几杯" min="1" id="你想要几杯">
+        </p>
+        <hr>
+        <p>
+          <label for="你需要的糖分量">你需要的糖分量</label>
+          <br>
+          无糖<input type="range" name="你需要的糖分量" min="1" max="5" id="你需要的糖分量">全糖
+        </p>
+        <hr>
+        <p>
+          <label>你想要什么顶料？</label>
+          <br>
+          <input type="checkbox" name="冰淇淋" >冰淇淋
+          <input type="checkbox" name="奶盖" >奶盖
+          <input type="checkbox" name="可可粉" >可可粉
+        </p>
+        <hr>
+        <p>
+          <label>你需要加冰吗？</label>
+          <br>
+          <input type="radio" name="status">Yes
+          <input type="radio" name="status">No
+        </p>
+        <hr>
+        <p>
+          <label>你需要加什么料</label>
+          <select name="加料">
+           <option value="珍珠">珍珠</option>
+           <option value="波霸">波霸</option>
+           <option value="布丁">布丁</option>
+          </select>
+        </p>
+        <hr>
+        <p>
+          <label>你要什么规格</label>
+          <input list="规格">
+          <datalist id="规格">
+            <option value="小杯">
+            <option value="中杯">
+            <option value="大杯">
+          </datalist>
+        </p>
+        <hr>
+        <p>
+          <label for="您还有别的什么要求吗">您还有别的什么要求吗</label>
+          <br>
+          <textarea name="您还有别的什么要求吗" id="您还有别的什么要求吗">
+          </textarea>
+        </p>
+        <hr>
+        <p>
+          <label for="您的联系方式">您的联系方式</label>
+          <input type="tel" name="您的联系方式" id="您的联系方式">
+        </p>
+        <hr>
+        <p>
+          <input type="submit" value="submit">
+        </p>
+        </form>
+    </section>
+  </body>
+</html>
