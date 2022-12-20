@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <a href="#" class="default">Default</a>
+        <a href="#" class="danger">Danger</a>
+        <a href="#" class="success">Success</a>
+        <a href="#" class="info">Info</a>
+        <a href="#" class="warning">Warning</a>
+        <a href="#" class="primary">Primary</a>
+    </div>
+</body>
+<style>
+    .box{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        margin-top: 20px;
+    }
+    a{
+        text-decoration: none;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .default{
+        border: 2px solid rgb(180, 174, 173);
+        color: gray;
+    }
+    .default:hover{
+        background-color: rgb(180, 174, 173);
+    }
+    .danger{
+        background-color: red;
+        color: white;
+    }
+    .danger:active{
+        background-color: rgb(95, 2, 14);
+    }
+    .success{
+        background-color: blue;
+        color: white;
+    }
+    .success:active{
+        background-color: rgb(18, 2, 63);
+    }
+    .info{
+        border:2px solid aqua;
+        border-radius: 10px;
+        color: aqua;
+       
+    }
+    .info:hover{
+        background-color: aqua;
+    }
+    .warning{
+        border:2px solid chocolate;
+        border-radius: 10px;
+        color: chocolate;
+    }
+    .warning:hover{
+        background-color: chocolate;
+    }
+    .primary{
+        border-radius: 50px;
+        background-color: rgb(34, 160, 97);
+        color: white;
+    }
+    .primary:active{
+        background-color: rgb(3, 53, 34);
+    }
+</style>
+</html>
